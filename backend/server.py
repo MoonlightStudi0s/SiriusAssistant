@@ -4,6 +4,7 @@ import json
 from collections import OrderedDict
 from flask import Flask, request, jsonify, url_for, redirect
 import os
+from sttmodel import *
 
 # ===================================================================
 UPLOAD_FOLDER = "backend/files"
